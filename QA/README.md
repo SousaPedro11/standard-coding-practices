@@ -44,9 +44,11 @@ A análise estática de código pode agrupada em 3 aspectos principais:
   Considera elementos como identação, espaços e tabs, convenção de nomes, número de parâmetros, alinhamento vertical, presença de comentários e etc. Tais aspectos tornam o código mais padronizado, organizado e legível.
 
 - Verificação por boas práticas
+
   Aplica algumas regras para verificar se práticas corretas estão sendo aplicadas, como evitar duplicação de código, implementação de métodos corretamente, tamanho de classes e métodos, tamanho de parâmetros, criação de variáveis locais desnecessáriamente e etc.
 
 - Verificação por bugs
+
   Procura erros no sistema. Importante para antecipar a identificação de problemas de software, como identificação de possíveis impactos na segurança so sistema.
 
 ## SonarQube
