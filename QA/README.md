@@ -137,6 +137,8 @@ Para iniciar a análise em determinado projeto, siga os passos:
 - Nesse ponto, caso não tenha instalado o [sonar-scanner-cli](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/) como mencionado no passo de [Requisitos](#requisitos), será sugerido a instalação do [sonar-scanner-cli](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/).
 
 - Copie o comando gerado em **Execute the Scanner** (como nas imagens acima), mova o cursor para a pasta do projeto no terminal, cole e execute o comando. Em outras palavras, execute o comando copiado na pasta do projeto.
+- Aguarde a analise ser concuida.
+- Acesse a aba projects onde será mostrado as métricas da análise efetuada.
 
 A interface padrão é bem intuitiva, com abas e opções correspondentes as métricas geradas:
 
