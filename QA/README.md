@@ -78,7 +78,7 @@ sudo ulimit -n 65536
 sudo ulimit -u 4096
 ```
 
-Além disso, instale o **_sonar-scanner-cli_**
+Além disso, instale o [sonar-scanner-cli](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/)
 
 ### Configuração do Container
 
@@ -132,8 +132,11 @@ Para iniciar a análise em determinado projeto, siga os passos:
 - Após gerar e você clicar _continue_, escolha a tecnologia e sistema operacional do projeto a ser analisado.
 
   ![Code](../.images/sonar_project4.png)
+  ![Code](../.images/sonar_project6.png)
 
-- Copie o comando gerado, mova o cursor para a pasta do projeto no terminal, cole e execute o comando.
+- Nesse ponto, caso não tenha instalado o [sonar-scanner-cli](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/) como mencionado no passo de [Requisitos](#requisitos), será sugerido a instalação do [sonar-scanner-cli](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/).
+
+- Copie o comando gerado em **Execute the Scanner** (como nas imagens acima), mova o cursor para a pasta do projeto no terminal, cole e execute o comando. Em outras palavras, execute o comando copiado na pasta do projeto.
 
 A interface padrão é bem intuitiva, com abas e opções correspondentes as métricas geradas:
 
